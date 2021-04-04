@@ -1,5 +1,5 @@
 provider "google" {
-  project = "tetianas-project"
+  project = "TF_VAR_GOOGLE_CLOUD_PROJECT"
   zone    = "europe-west1-b"
 }
 
