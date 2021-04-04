@@ -7,7 +7,7 @@ resource "google_compute_network" "nat-example" {
   name = "nat-example"
   mtu  = 1460
   auto_create_subnetworks = false
-  project = "tetianas-project"
+  project = "TF_VAR_GOOGLE_CLOUD_PROJECT"
   routing_mode = "REGIONAL"
 }
 
